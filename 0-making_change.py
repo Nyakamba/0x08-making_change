@@ -2,6 +2,7 @@
 
 """ Contains makeChange function"""
 
+
 def makeChange(coins, total):
     """
     Returns: fewest number of coins needed to meet total
@@ -20,5 +21,4 @@ def makeChange(coins, total):
             change += 1
         if (total == 0):
             return change
-
     return -1
